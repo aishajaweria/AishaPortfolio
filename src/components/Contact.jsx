@@ -1,8 +1,8 @@
-import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import React, { useRef, useState } from "react";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { EMAIL_JS_SERVICE_ID, EMAIL_JS_TEMPLATE_ID, EMAIL_JS_PUBLIC_KEY } from "../constants";
+import { EMAIL_JS_PUBLIC_KEY, EMAIL_JS_SERVICE_ID, EMAIL_JS_TEMPLATE_ID } from "../constants";
 import Footer from "./Footer";
 const Contact = () => {
 	const formRef = useRef();
@@ -80,7 +80,7 @@ const Contact = () => {
 
 	return (
 
-        <div className='relative z-0 bg-black w-screen h-screen mt-12'>   
+        <div className='relative z-0 bg-black w-screen h-auto '>   
 			<div className='text-white contact overflow-x-hidden pt-12 mt-8 ' id='contact'>
 				<div className='z-10 w-full sm:w-[650px] m-auto p-8 rounded-2xl' >
 					<p className='font-light'>REACH OUT TO ME</p>
