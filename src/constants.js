@@ -1,25 +1,3 @@
-
-export const services = [
-    {
-        title: "Technology Enthusiast",
-        icon: 'https://csgeeek.github.io/web.png',
-    },
-    {
-        title: "Software Engineer",
-        icon: 'https://csgeeek.github.io/web.png',
-    },
-    {
-        title: "Web development",
-        icon: 'https://csgeeek.github.io/web.png',
-    },
-    {
-        title: "UI/UX design",
-        icon: 'https://csgeeek.github.io/web.png',
-    },
-];
-
-export const name = 'Aisha Jaweria';
-
 export const experiences = [
     {
         'company': 'InternnCraft',
@@ -46,9 +24,3 @@ export const experiences = [
         'url': 'https://www.codsoft.in/',
     },
 ]
-
-
-
-export const EMAIL_JS_SERVICE_ID = 'service_2l8b25h';
-export const EMAIL_JS_TEMPLATE_ID = 'template_rdp18jn';
-export const EMAIL_JS_PUBLIC_KEY = 'EjvrOkmNMonmMwZIJ';
