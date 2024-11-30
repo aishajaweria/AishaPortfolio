@@ -2,7 +2,7 @@ export const experiences = [
     {
         'company': 'InternnCraft',
         'role': 'full Stack Developer',
-        'duration': 'April 2024 - Present',
+        'duration': 'April 2024 - July 2024',
         'logo': 'https://internncraft.com/wp-content/uploads/2024/03/Untitled_design__1_-removebg-preview-114x114.png',
         'points': [
             'Built and enhanced dynamic web applications using React.js for front-end development and Node.js/Express for back-end services, ensuring responsive and interactive user experiences.',
