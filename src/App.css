@@ -586,6 +586,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .proj-txtx span, .proj-tx span {
     font-size: 0.875em;
   }
+  .project .nav.nav-pills .nav-item {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 480px) {
