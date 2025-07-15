@@ -2,12 +2,15 @@ import 'animate.css';
 import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
 import TrackVisibility from 'react-on-screen';
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import focusflow from "../assets/img/Focus Flow.jpeg";
 import projImg1 from "../assets/img/pic1.png";
 import projImg2 from "../assets/img/pic2.png";
 import projImg3 from "../assets/img/pic3.png";
+import spotify from "../assets/img/Spotify.jpeg";
 import ui1 from "../assets/img/ui1.png";
 import ui2 from "../assets/img/ui2.png";
 import ui3 from "../assets/img/ui3.png";
+import { MobileApp } from './MobileApp';
 import { ProjectCard } from "./ProjectCard";
 import { UICard } from "./UICard";
 
@@ -49,6 +52,20 @@ export const Projects = () => {
       description: "UI Design",
       imgUrl: ui3,
     }
+  ];
+  const Mobileprojects = [
+    {
+      title: "Spotify Clone App",
+      description: "A music streaming app replicating Spotify's UI and core features, including song playback, playlists, and user authentication.",
+      imgUrl: spotify,
+      git:'https://github.com/Aisha-mfl/spotify-clone'
+    },
+    {
+      title: "Focus Flow",
+      description: "A productivity app that merges multiple tools like task management, Expense Tracker, and Meals into one unified interface for focused work.",
+      imgUrl: focusflow,
+      git:'https://github.com/Aisha-mfl/Focus-Flow',
+    },
   ];
 
   return (
@@ -106,9 +123,9 @@ export const Projects = () => {
                        <Tab.Pane eventKey="third">
                         <Row>
                           {
-                            projectss.map((project, index) => {
+                            Mobileprojects.map((project, index) => {
                               return (
-                                <UICard
+                                <MobileApp
                                   key={index}
                                   {...project}
                                 />
