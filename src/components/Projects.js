@@ -18,19 +18,19 @@ export const Projects = () => {
       title: "Social Media Platform",
       description: "Design & Development",
       imgUrl: projImg1,
-      git: 'https://github.com/aishajaweria/socialMedia'
+      git:'https://github.com/aishajaweria/socialMedia'
     },
     {
       title: "Online Food Ordering App",
       description: "Design & Development",
       imgUrl: projImg2,
-      git: 'https://github.com/aishajaweria/InvoiceMaker',
+      git:'https://github.com/aishajaweria/InvoiceMaker',
     },
     {
       title: "Invoice Maker",
       description: "Design & Development",
       imgUrl: projImg3,
-      git: "https://github.com/aishajaweria/OnlineFoodOrderApp",
+      git:"https://github.com/aishajaweria/OnlineFoodOrderApp",
     }
   ];
   const projectss = [
@@ -63,40 +63,61 @@ export const Projects = () => {
                   <p>
                     Developed full-stack applications using React and Next.js, including social media platforms, food ordering systems, and invoicing tools. Demonstrated strong UI/UX design skills by creating intuitive interfaces for blogging platforms and user authentication systems.</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                    <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center flex-row gap-3" id="pills-tab">
+                    <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Development</Nav.Link>
+                        <Nav.Link eventKey="first">Web Development</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">UI Designs</Nav.Link>
+                        <Nav.Link eventKey="second">UI Design</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">Mobile App</Nav.Link>
+                        <Nav.Link eventKey="third">Mobile Apps</Nav.Link>
                       </Nav.Item>
                     </Nav>
-
                     <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                       <Tab.Pane eventKey="first">
                         <Row>
-                          {projects.map((project, index) => (
-                            <ProjectCard key={index} {...project} />
-                          ))}
+                          {
+                            projects.map((project, index) => {
+                              return (
+                                <ProjectCard
+                                  key={index}
+                                  {...project}
+                                />
+                              )
+                            })
+                          }
                         </Row>
                       </Tab.Pane>
-
                       <Tab.Pane eventKey="second">
                         <Row>
-                          {projectss.map((project, index) => (
-                            <UICard key={index} {...project} />
-                          ))}
+                          {
+                            projectss.map((project, index) => {
+                              return (
+                                <UICard
+                                  key={index}
+                                  {...project}
+                                />
+                              )
+                            })
+                          }
                         </Row>
                       </Tab.Pane>
-
-                      <Tab.Pane eventKey="third">
-                        <p>Coming soon or other content goes here.</p>
+                       <Tab.Pane eventKey="third">
+                        <Row>
+                          {
+                            projectss.map((project, index) => {
+                              return (
+                                <UICard
+                                  key={index}
+                                  {...project}
+                                />
+                              )
+                            })
+                          }
+                        </Row>
                       </Tab.Pane>
                     </Tab.Content>
-
                   </Tab.Container>
                 </div>}
             </TrackVisibility>
