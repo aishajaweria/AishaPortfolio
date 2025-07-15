@@ -1,6 +1,6 @@
 import { Col } from "react-bootstrap";
 
-export const MobileApp = ({ title, description, imgUrl}) => {
+export const MobileApp = ({ title, description, imgUrl , git}) => {
   return (
     <Col size={12} sm={8} md={4}>
       <div className="proj-imgbx1">
