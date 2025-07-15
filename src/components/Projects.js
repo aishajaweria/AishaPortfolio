@@ -1,14 +1,14 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
+import 'animate.css';
+import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
+import TrackVisibility from 'react-on-screen';
+import colorSharp2 from "../assets/img/color-sharp2.png";
 import projImg1 from "../assets/img/pic1.png";
 import projImg2 from "../assets/img/pic2.png";
 import projImg3 from "../assets/img/pic3.png";
-import colorSharp2 from "../assets/img/color-sharp2.png";
-import ui1 from "../assets/img/ui1.png"
-import ui2 from "../assets/img/ui2.png"
-import ui3 from "../assets/img/ui3.png"
-import 'animate.css';
-import TrackVisibility from 'react-on-screen';
+import ui1 from "../assets/img/ui1.png";
+import ui2 from "../assets/img/ui2.png";
+import ui3 from "../assets/img/ui3.png";
+import { ProjectCard } from "./ProjectCard";
 import { UICard } from "./UICard";
 
 export const Projects = () => {
@@ -69,6 +69,9 @@ export const Projects = () => {
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="second">Tab 3</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
