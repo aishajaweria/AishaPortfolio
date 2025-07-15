@@ -3,6 +3,7 @@ import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
 import TrackVisibility from 'react-on-screen';
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import focusflow from "../assets/img/Focus Flow.jpeg";
+import main from "../assets/img/main.jpeg";
 import projImg1 from "../assets/img/pic1.png";
 import projImg2 from "../assets/img/pic2.png";
 import projImg3 from "../assets/img/pic3.png";
@@ -55,6 +56,12 @@ export const Projects = () => {
   ];
   const Mobileprojects = [
     {
+      title: "Spotify Clone App",
+      description: "A music streaming app replicating Spotify's UI and core features, including song playback, playlists, and user authentication.",
+      imgUrl: main,
+      git:'https://github.com/Aisha-mfl/spotify-clone'
+    },
+     {
       title: "Spotify Clone App",
       description: "A music streaming app replicating Spotify's UI and core features, including song playback, playlists, and user authentication.",
       imgUrl: spotify,

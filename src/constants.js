@@ -29,8 +29,12 @@ export const experiences = [
         'duration': 'Apr 2025 - july 2025',
         'logo': 'https://metafroliclabs.com/assets/images/logo.webp',
         'points': [
-            'Worked as a Mobile App Developer at Meta Frolic Labs, building and optimizing cross-platform applications with a focus on performance,',
-            'UI/UX, and scalable architecture using React Native and Firebase.📱.'
+            'Developed and maintained cross-platform mobile applications using React Native, targeting both iOS and Android platforms.',
+            'Integrated Firebase for real-time database management, user authentication, and push notifications📱.',
+            'Collaborated with UI/UX designers to implement clean, intuitive, and responsive user interfaces.',
+            'Worked closely with backend teams to consume RESTful APIs and ensure seamless data flow and app functionality.',
+            'Implemented modular and reusable components to streamline development and reduce technical debt.',
+            "Ensured app reliability and scalability by writing clean, maintainable, and testable code."
         ],
         'url': 'https://metafroliclabs.com/',
     },
