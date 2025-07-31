@@ -1,5 +1,16 @@
 export const experiences = [
     {
+        'company': 'CodSoft',
+        'role': 'UI/UX DESIGNER',
+        'duration': 'Sep 2023 - Oct 2023',
+        'logo': 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=608,fit=crop,q=95/Aq20eV79zLfpXV6b/logo-png-mnl7npnlXjHPl9KV.png',
+        'points': [
+            'As a UI/UX designer, where I designed a visually appealing and user-friendly login webpage, Bloging Website. enhancing the user experience and accessibility.',
+            'Enhancing the user experience and accessibility📱.'
+        ],
+        'url': 'https://www.codsoft.in/',
+    },
+    {
         'company': 'InternnCraft',
         'role': 'full Stack Developer',
         'duration': 'April 2024 - July 2024',
@@ -13,14 +24,18 @@ export const experiences = [
         'url': 'https://internncraft.com/',
     },
     {
-        'company': 'CodSoft',
-        'role': 'UI/UX DESIGNER',
-        'duration': 'Sep 2023 - Oct 2023',
-        'logo': 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=608,fit=crop,q=95/Aq20eV79zLfpXV6b/logo-png-mnl7npnlXjHPl9KV.png',
+        'company': 'Metafrolic Labs',
+        'role': 'Mobile App Developer',
+        'duration': 'Apr 2025 - july 2025',
+        'logo': 'https://metafroliclabs.com/assets/images/logo.webp',
         'points': [
-            'As a UI/UX designer, where I designed a visually appealing and user-friendly login webpage, Bloging Website. enhancing the user experience and accessibility.',
-            'Enhancing the user experience and accessibility📱.'
+            'Developed and maintained cross-platform mobile applications using React Native, targeting both iOS and Android platforms.',
+            'Integrated Firebase for real-time database management, user authentication, and push notifications📱.',
+            'Collaborated with UI/UX designers to implement clean, intuitive, and responsive user interfaces.',
+            'Worked closely with backend teams to consume RESTful APIs and ensure seamless data flow and app functionality.',
+            'Implemented modular and reusable components to streamline development and reduce technical debt.',
+            "Ensured app reliability and scalability by writing clean, maintainable, and testable code."
         ],
-        'url': 'https://www.codsoft.in/',
+        'url': 'https://metafroliclabs.com/',
     },
 ]

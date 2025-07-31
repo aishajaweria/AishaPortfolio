@@ -1,14 +1,18 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
+import 'animate.css';
+import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
+import TrackVisibility from 'react-on-screen';
+import colorSharp2 from "../assets/img/color-sharp2.png";
+import focusflow from "../assets/img/Focus Flow.jpeg";
+import main from "../assets/img/main.jpeg";
 import projImg1 from "../assets/img/pic1.png";
 import projImg2 from "../assets/img/pic2.png";
 import projImg3 from "../assets/img/pic3.png";
-import colorSharp2 from "../assets/img/color-sharp2.png";
-import ui1 from "../assets/img/ui1.png"
-import ui2 from "../assets/img/ui2.png"
-import ui3 from "../assets/img/ui3.png"
-import 'animate.css';
-import TrackVisibility from 'react-on-screen';
+import spotify from "../assets/img/Spotify.jpeg";
+import ui1 from "../assets/img/ui1.png";
+import ui2 from "../assets/img/ui2.png";
+import ui3 from "../assets/img/ui3.png";
+import { MobileApp } from './MobileApp';
+import { ProjectCard } from "./ProjectCard";
 import { UICard } from "./UICard";
 
 export const Projects = () => {
@@ -50,6 +54,26 @@ export const Projects = () => {
       imgUrl: ui3,
     }
   ];
+  const Mobileprojects = [
+    {
+      title: "Spotify Clone App",
+      description: "A music streaming app replicating Spotify's UI and core features, including song playback, playlists, and user authentication.",
+      imgUrl: main,
+      git:'https://github.com/Aisha-mfl/spotify-clone'
+    },
+     {
+      title: "Spotify Clone App",
+      description: "A music streaming app replicating Spotify's UI and core features, including song playback, playlists, and user authentication.",
+      imgUrl: spotify,
+      git:'https://github.com/Aisha-mfl/spotify-clone'
+    },
+    {
+      title: "Focus Flow",
+      description: "A productivity app that merges multiple tools like task management, Expense Tracker, and Meals into one unified interface for focused work.",
+      imgUrl: focusflow,
+      git:'https://github.com/Aisha-mfl/Focus-Flow',
+    },
+  ];
 
   return (
     <section className="project" id="projects">
@@ -65,10 +89,13 @@ export const Projects = () => {
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                        <Nav.Link eventKey="first">Web Development</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                        <Nav.Link eventKey="second">UI Design</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="third">Mobile Apps</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -92,6 +119,20 @@ export const Projects = () => {
                             projectss.map((project, index) => {
                               return (
                                 <UICard
+                                  key={index}
+                                  {...project}
+                                />
+                              )
+                            })
+                          }
+                        </Row>
+                      </Tab.Pane>
+                       <Tab.Pane eventKey="third">
+                        <Row>
+                          {
+                            Mobileprojects.map((project, index) => {
+                              return (
+                                <MobileApp
                                   key={index}
                                   {...project}
                                 />

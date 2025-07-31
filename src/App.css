@@ -373,7 +373,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
 }
 .project .nav.nav-pills .nav-item {
-  width: 50%;
+  width: 33.333%;
 }
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
@@ -585,6 +585,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   .proj-txtx span, .proj-tx span {
     font-size: 0.875em;
+  }
+  .project .nav.nav-pills .nav-item {
+    width: 100%;
   }
 }
 
