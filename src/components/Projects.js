@@ -29,6 +29,7 @@ export const Projects = () => {
       description: "Design & Development",
       imgUrl: projImg2,
       git:'https://github.com/aishajaweria/InvoiceMaker',
+      websiteLink: "https://biteblisse.netlify.app/"
     },
     {
       title: "Invoice Maker",
