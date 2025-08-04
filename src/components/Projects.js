@@ -22,20 +22,22 @@ export const Projects = () => {
       title: "Social Media Platform",
       description: "Design & Development",
       imgUrl: projImg1,
-      git:'https://github.com/aishajaweria/socialMedia'
+      git:'https://github.com/aishajaweria/socialMedia',
+      weblink: "https://github.com/aishajaweria/socialMedia"
     },
     {
       title: "Online Food Ordering App",
       description: "Design & Development",
       imgUrl: projImg2,
-      git:'https://github.com/aishajaweria/InvoiceMaker',
-      websiteLink: "https://biteblisse.netlify.app/"
+      git:'https://github.com/aishajaweria/OnlineFoodOrderApp',
+      weblink: "https://biteblisse.netlify.app/"
     },
     {
       title: "Invoice Maker",
       description: "Design & Development",
       imgUrl: projImg3,
-      git:"https://github.com/aishajaweria/OnlineFoodOrderApp",
+      git:"https://github.com/aishajaweria/InvoiceMaker",
+      weblink: "https://github.com/aishajaweria/InvoiceMaker"
     }
   ];
   const projectss = [
