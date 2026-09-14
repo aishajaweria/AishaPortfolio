@@ -2,6 +2,7 @@ import 'animate.css';
 import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
 import TrackVisibility from 'react-on-screen';
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import projImg4 from "../assets/img/flyroute.png";
 import focusflow from "../assets/img/Focus Flow.jpeg";
 import main from "../assets/img/main.jpeg";
 import projImg1 from "../assets/img/pic1.png";
@@ -22,19 +23,29 @@ export const Projects = () => {
       title: "Social Media Platform",
       description: "Design & Development",
       imgUrl: projImg1,
-      git:'https://github.com/aishajaweria/socialMedia'
+      git:'https://github.com/aishajaweria/socialMedia',
+      weblink: "https://github.com/aishajaweria/socialMedia"
     },
     {
       title: "Online Food Ordering App",
       description: "Design & Development",
       imgUrl: projImg2,
-      git:'https://github.com/aishajaweria/InvoiceMaker',
+      git:'https://github.com/aishajaweria/OnlineFoodOrderApp',
+      weblink: "https://biteblisse.netlify.app/"
     },
     {
       title: "Invoice Maker",
       description: "Design & Development",
       imgUrl: projImg3,
-      git:"https://github.com/aishajaweria/OnlineFoodOrderApp",
+      git:"https://github.com/aishajaweria/InvoiceMaker",
+      weblink: "https://github.com/aishajaweria/InvoiceMaker"
+    },
+    {
+      title: "Fly Route",
+      description: "Frontend Development",
+      imgUrl: projImg4,
+      git:"https://github.com/aishajaweria/Fly-Route",
+      weblink: "https://fly-route.vercel.app/"
     }
   ];
   const projectss = [
