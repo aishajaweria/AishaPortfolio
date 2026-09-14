@@ -4,7 +4,7 @@ export const MobileApp = ({ title, description, imgUrl , git}) => {
   return (
     <Col size={12} sm={8} md={4}>
       <div className="proj-imgbx1">
-        <img src={imgUrl} />
+        <img src={imgUrl} alt="Mobile app project" />
         <div className="proj-tx">
           <h4>{title}</h4>
           <span>{description}</span>

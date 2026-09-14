@@ -36,23 +36,23 @@ export const Skills = () => {
                         <p>Bridging the gap between design and development. Delivering visually stunning and high-performing web applications. <br></br> Expertise in React, Next.js, Html/CSS, MongoDB, Java, TailwindCSS and a keen eye for user-centric design.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="HTML, CSS" />
                                 <h5>HTML, CSS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="JavaScript" />
                                 <h5>JavaScript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="React" />
                                 <h5>React</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="UI/UX Design" />
                                 <h5>UI/UX Design</h5>
                             </div>
                                <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="React Native" />
                                 <h5>React Native</h5>
                             </div>
                         </Carousel>
@@ -60,7 +60,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="Background decoration" />
     </section>
   )
 }
