@@ -38,4 +38,18 @@ export const experiences = [
         ],
         'url': 'https://metafroliclabs.com/',
     },
+    {
+        'company': 'Herr Und Frau klein',
+        'role': 'Data Management Associate - Backend & Database Operations ',
+        'duration': 'March 2026 - present',
+        'logo': 'https://herrundfrauklein.com/bilder/intern/shoplogo/md-hfklogo2025.webp',
+        'points': [
+            'Write and optimize SQL queries to generate accurate, reliable datasets for business and reporting needs.',
+            'Manage and maintain product listings and catalog data within the JTL (JTL-Wawi) system, ensuring consistency and accuracy across large product sets',
+            'Perform data validation and quality checks to catch and correct discrepancies across product and transactional records.',
+            'Built a Python-based automation tool to streamline recurring data cleaning tasks, reducing manual processing time.',
+            'Integrate APIs to support automated data workflows and keep information consistent between internal systems.',
+        ],
+        'url': 'https://herrundfrauklein.com/',
+    },
 ]
